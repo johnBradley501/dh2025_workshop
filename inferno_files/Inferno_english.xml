@@ -58,7 +58,7 @@
 	"id": "https://raw.githubusercontent.com/johnBradley501/dh2025_workshop/main/inferno_files/Inferno_english.xml?person_annotation_20250715144152794",
 	"type": "oa:Annotation",
 	"dcterms:created": "2025-07-15T13:41:52.794Z",
-	"dcterms:modified": "2025-07-15T13:41:52.794Z",
+	"dcterms:modified": "2025-07-15T14:11:37.454Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/johnBradley501",
 		"@type": [
@@ -89,7 +89,9 @@
 		}
 	},
 	"oa:hasBody": {
-		"@type": "cwrc:NaturalPerson"
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q6691",
+		"dc:format": "text/plain"
 	},
 	"as:generator": {
 		"@id": "https://leaf-writer.leaf-vre.org",
@@ -132,10 +134,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/johnBradley501/dh2025_workshop/main/inferno_files/Inferno_english.xml?person_annotation_20250715145501182",
+	"id": "https://raw.githubusercontent.com/johnBradley501/dh2025_workshop/main/inferno_files/Inferno_english.xml?person_annotation_20250715150159370",
 	"type": "oa:Annotation",
-	"dcterms:created": "2025-07-15T13:55:01.182Z",
-	"dcterms:modified": "2025-07-15T14:01:59.370Z",
+	"dcterms:created": "2025-07-15T14:01:59.370Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/johnBradley501",
 		"@type": [
@@ -146,7 +147,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/johnBradley501/dh2025_workshop/main/inferno_files/Inferno_english.xml?person_annotation_20250715145501182#Target",
+		"@id": "https://raw.githubusercontent.com/johnBradley501/dh2025_workshop/main/inferno_files/Inferno_english.xml?person_annotation_20250715150159370#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/johnBradley501/dh2025_workshop/main/inferno_files/Inferno_english.xml",
@@ -160,7 +161,7 @@
 			"schema:softwareVersion": "3.9.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/johnBradley501/dh2025_workshop/main/inferno_files/Inferno_english.xml?person_annotation_20250715145501182#Selector",
+			"@id": "https://raw.githubusercontent.com/johnBradley501/dh2025_workshop/main/inferno_files/Inferno_english.xml?person_annotation_20250715150159370#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/byline/persName"
 		}
@@ -215,7 +216,6 @@
 	"id": "https://raw.githubusercontent.com/johnBradley501/dh2025_workshop/main/inferno_files/Inferno_english.xml?person_annotation_20250715150051860",
 	"type": "oa:Annotation",
 	"dcterms:created": "2025-07-15T14:00:51.860Z",
-	"dcterms:modified": "2025-07-15T14:00:51.860Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/johnBradley501",
 		"@type": [
@@ -241,20 +241,8 @@
 		},
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/johnBradley501/dh2025_workshop/main/inferno_files/Inferno_english.xml?person_annotation_20250715150051860#Selector",
-			"@type": "oa:RangeSelector",
-			"oa:hasStartSelector": {
-				"@type": "oa:XPathSelector",
-				"rdf:value": "TEI/text/body/div/lg[5]/l[2]/persName"
-			},
-			"oa:hasEndSelector": {
-				"@type": "oa:XPathSelector",
-				"rdf:value": "TEI/text/body/div/lg[5]/l[2]"
-			},
-			"oa:refinedBy": {
-				"@type": "oa:TextPositionSelector",
-				"oa:start": 4,
-				"oa:end": 14
-			}
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/lg[5]/l[2]/persName/persName"
 		}
 	},
 	"oa:hasBody": {
@@ -316,7 +304,7 @@
 
             <lg n="5" xml:id="lg005">
                <l n="13">“Let us descend now into the blind world,”</l>
-               <l n="14" xml:id="virg01">Began <persName type="real" xml:id="virg01">the Poet</persName>, pallid utterly;</l>
+               <l n="14" xml:id="virg01">Began <persName type="real" xml:id="virg01">the <persName>Poet</persName></persName>, pallid utterly;</l>
                <l n="15">“I will be first, and thou shalt second be.”</l>
             </lg>
 
@@ -465,7 +453,7 @@
             </lg>
 
             <lg n="30" xml:id="lg030">
-               <l n="88">That one is <persName type="real" xml:id="homer01"><persName key="Homer" ref="http://www.wikidata.org/entity/Q6691"/>Homer</persName>, Poet sovereign;</l>
+               <l n="88">That one is <persName type="real" xml:id="homer01" key="Homer" ref="http://www.wikidata.org/entity/Q6691"><persName key="Homer" ref="http://www.wikidata.org/entity/Q6691"/>Homer</persName>, Poet sovereign;</l>
                <l n="89">He who comes next is Horace, the satirist;</l>
                <l n="90">The third is Ovid, and the last is Lucan.</l>
             </lg>
