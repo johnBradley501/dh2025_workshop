@@ -1,0 +1,39 @@
+{
+    "editionTitle": "Dante Inferno Canto 4",
+    "editionSubtitle": "DH2025",
+    "ignoreNamespace": true,
+    "documents": "//div[@type='canto']",
+    "documentContent": "",
+    "documentTitle": "head",
+    "documentAuthor": "",
+    "indexDocument": "",
+    "documentImages": "",
+    "documentNotes": "",
+    "documentLinks": "",
+    "inputs": [
+        "https://raw.githubusercontent.com/johnBradley501/dh2025_workshop/refs/heads/main/DToC_files/demo/Inferno_english_entities.xml"
+    ],
+    "curation": {
+        "markup": [
+            {
+                "xpath": "//lg",
+                "label": "Line Groups"
+            },
+            {
+                "xpath": "//persName",
+                "label": "People"
+            },
+            {
+                "xpath": "//persName[@role]",
+                "label": "Roles"
+            },
+            {
+                "xpath": "//div",
+                "label": "div"
+            }
+        ],
+        "toc": [
+            "4a234af798927871188f603d6a25ed5367ebdce32593fe6970e496280443fca5"
+        ]
+    }
+}
